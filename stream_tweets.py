@@ -33,6 +33,17 @@ TWITTER_APP_KEYS = {
     "access_token": "<twitter_app_access_token>"
     "access_token_secret": "<twitter_app_access_token_secret>"
 }
+# Twitter keywords to listen to
+#   E.g., [
+#     "kerala flood",
+#     "kerala sos",
+#     "kerala rain",
+#     "kerala rescue",
+#     "kerala relief",
+#   ]
+LISTEN_KEYWORDS = [
+    
+]
 
 # ElasticSearch
 # E.g., http://10.0.0.1:9200
@@ -47,8 +58,9 @@ ES_CREDENTIALS = {
 #   to add documents(tweets as json) into it 
 ES_INDEX_NAME = "<index_name_to_put_tweets>"
 # To delete and create the above index
-#    if not true, tweets will be appended to 
+#    if this is changed to False, tweets will be appended to
 ES_DELETE_AND_CREATE_INDEX = True
+
 # ********************* Do not change this *********************
 #   This says what we need in the tweet
 ES_TWEET_MAPPING = {
@@ -149,18 +161,6 @@ ES_TWEET_MAPPING = {
       "type": "geo_point"
     }
 }
-
-# Twitter keywords to listen to
-#   E.g., [
-#     "kerala flood",
-#     "kerala sos",
-#     "kerala rain",
-#     "kerala rescue",
-#     "kerala relief",
-#   ]
-LISTEN_KEYWORDS = [
-    
-]
 ###############################################################################
 
 
