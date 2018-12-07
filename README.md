@@ -10,7 +10,7 @@ Requirements:
 To deploy this solution follow the below steps,
 1. Setup ElasticSearch and Kibana in any machine of your choice.
    * Follow official documentation, based on the OS of your machine,
-      * [ElasticSearch Installation Reference](https://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html)
+      * [ElasticSearch Installation Reference](https://www.elastic.co/guide/en/elasticsearch/reference/6.5/install-elasticsearch.html)
       * [Kibana Installation Reference](https://www.elastic.co/guide/en/kibana/6.5/setup.html)
 2. Configure and run [stream_tweets.py](https://gitlab.com/dineshbabur92/kibana_stream_tweets/blob/master/stream_tweets.py)
    * Install    required packages and change configurations as per instructions given on top of the code.
