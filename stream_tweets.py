@@ -1,7 +1,7 @@
 ###############################################################################
 # Program : stream_tweets.py
 # Descriptions: Used to fetch tweets based on list of search keywords
-# Author : LatentView
+# Author : Dinesh Babu Rengasamy
 ###############################################################################
 
 
